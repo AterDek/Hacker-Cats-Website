@@ -1,0 +1,238 @@
+body {
+  background-color: rgb(13, 59, 102);
+  padding: 0px 0px;
+  
+}
+
+.vid {
+  width: 100%;
+  position: fixed;
+  background-size: cover;
+  top: 96px;
+  left: 0%;
+  padding: 0px;
+  z-index: -9;
+  border-bottom: 4px solid white;
+}
+
+.backVid {
+  width: 100%;
+  left:-8px;
+  padding: 0px;
+  z-index: -5;
+
+}
+
+.signin{
+  color: whitesmoke;
+  font-family: "Tahoma";
+  width: 340px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  border: 3px solid white;
+  text-align: center;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.Pages{
+  left: 20%;
+  top: 99px;  
+  position: fixed;
+  z-index: 100;
+    background-color:white;
+  border: white;
+}
+
+.page {
+  width: 130px;
+  height: 40px;
+  font-size: 100%;  
+  background-color:white;
+  border: white;
+  font-family: Tahoma;
+}
+
+.page:hover{
+  background-color:gray;
+  cursor: pointer;
+}
+
+.HomePage, .IndexPage{
+  width: 130px;
+  height: 40px;
+  font-size: 100%;  
+  background-color:white;
+  border: white;
+}
+
+.HomePage:hover, .IndexPage:hover {
+  background-color:gray;
+}
+
+.formAll {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0px;
+  z-index: 5;
+  position: absoulute;
+  margin-top: 0px;
+  background-color: rgb(8, 45, 87);
+  border: 3px solid white;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+t1 {
+  display: block;
+  text-align: center;
+}
+
+#enterName {
+  background-color: whitesmoke;
+  background-size: fixed;
+  background-position: center; 
+  margin-left: auto;
+  margin-right:auto;
+  display: flex;
+  margin-top: 150px;
+  resize: none;
+  border:whitesmoke;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.classButtons {
+margin-top: 20px;
+margin-left:auto;
+margin-right:auto;
+text-align: center;
+display: block;
+font-family: Tahoma;
+}
+
+
+.classButtons input[type="radio"] {
+  opacity: 0;
+  position: fixed;
+  width: 0;
+}
+
+.classButtons label {
+    display: inline-block;
+    background-color: whitesmoke;
+    padding: 5px 10px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    color:black;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.classButtons input[type="radio"]:checked + label {
+    background-color:gray;
+    border: 2px solid black;
+}
+
+.classButtons input[type="radio"]:focus + label {
+    border: 4px  black;
+}
+
+.classButtons label:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+
+
+label{
+color: whitesmoke;
+}
+
+.Date{
+  background-position: center; 
+  margin-left: auto;
+  margin-right:auto;
+  display: flex;
+  margin-top: 20px;
+  font-family: Tahoma;
+  background-color: whitesmoke;
+  border:0px;
+}
+
+.Date:hover{
+  cursor: text;
+}
+
+#submit {   
+  width: 60px;
+  display: block;
+  margin-top:20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  border: 3px solid whitesmoke;
+  text-align: center;
+  text-decoration: none;
+  font-family: Tahoma;
+}
+
+#submit:hover {
+    background-color: grey;
+    cursor: pointer;
+    border-color: gray;
+    text-decoration: none;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  height: 95px;
+  background-size: auto;
+  z-index: 5;
+  background-image: url("../Other Stuff/techim.jpeg");
+  right: 0px;
+  top: 0px;
+  border-bottom: 4px solid white;
+}
+
+.hjorp {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  border: 3px solid white;
+  border-radius: 15px;
+  margin-left: 4px;
+}
+
+footer {
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+   background-color: rgb(8, 45, 87);
+   position: absolute;
+  top: 90%;
+  color: white;
+  border: 3px solid white;
+  width: 98.9%;
+  margin-left: auto;
+  margin-right: auto;
+  height: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: block;
+  background-position: center;
+  text-align:center;  
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+
+div.contact{
+   position: relative;
+   bottom: 2%;
+   color: white;
+  display: block;
+  text-align: center;
+}
